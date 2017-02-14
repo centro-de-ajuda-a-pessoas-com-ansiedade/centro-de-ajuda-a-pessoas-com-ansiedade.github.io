@@ -28,14 +28,12 @@ $(document).ready(function() {
 
     $('.btn-success').click(function(){
 
-        console.log('ga...');
-
-        /*ga('send', {
+        ga('send', {
                 hitType: 'event',
                 // eventCategory: '',
                 eventAction: 'click',
                 // eventLabel: ''
-            });*/
+            });
 
     });
 
